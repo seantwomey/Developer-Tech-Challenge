@@ -1,0 +1,38 @@
+
+**data quality issues**
+for 20,000 rows of data this looks pretty good
+there will always be cases of bad data or null values.
+it would be interesting to see the turnover of ads with inaccurate/no pricing against those with accurate pricing.
+
+
+date:
+everything looks ok - data a little old now.
+
+price:
+we have some issues here around price.
+12 ads have have bad character '-'
+86 ads less thn 100 euro
+5 accounts with very high price for car age.
+1147 ads with prices less than 500 or null.
+
+
+model:
+92 ads that appear to have date values for model of car
+26 null values
+
+year:
+7 ads bad data 
+
+colour:
+81 ads null values
+
+engine:
+3 ads have questionable engine size
+
+body_type:
+1 ad bad data "please select"
+
+
+
+
+
